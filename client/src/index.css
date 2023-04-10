@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: 'Gruppo', cursive;
+}
+
+    .ant-btn-primary {
+      background-color: #1677ff;
+    }
+    
+@media( min-width:768px ){
+  body{
+    overflow: hidden;
+  }
+
+  .categories::-webkit-scrollbar {
+    display: none;
+  }
+}
