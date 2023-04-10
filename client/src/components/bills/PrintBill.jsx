@@ -77,7 +77,7 @@ const PrintBill = ({ isModalOpen, setIsModalOpen }) => {
                     <th
                       colSpan={4}
                       scope="col"
-                      className="py-3.5 text-left text-sm font-normal text-slate-700 md:pl-0 "
+                      className="py-3.5 text-left text-sm font-normal text-slate-700 md:pl-0 sm:hidden "
                     >
                       Başlık
                     </th>
@@ -118,7 +118,7 @@ const PrintBill = ({ isModalOpen, setIsModalOpen }) => {
                         </span>
                       </div>
                     </td>
-                    <td className="py-4" colSpan={4}>
+                    <td className="py-4 sm:hidden" colSpan={4}>
                       <div className="flex flex-col">
                         <span className="font-medium">Elma</span>
                         <span className="sm:hidden inline-block text-xs">
@@ -144,11 +144,15 @@ const PrintBill = ({ isModalOpen, setIsModalOpen }) => {
                       colSpan="4"
                       scope="row"
                     >
-                      <span className="font-normal text-slate-700" colSpan="4">
+                      <span className="font-normal text-slate-700">
                         Ara Toplam
                       </span>
                     </th>
-                    <th className="text-left pt-4 sm:hidden" scope="row">
+                    <th
+                      className="text-left pt-4 sm:hidden"
+                      scope="row"
+                      colSpan={4}
+                    >
                       <p className="font-normal text-slate-700">Ara Toplam</p>
                     </th>
                     <th className="text-right pt-6" colSpan="4" scope="row">
