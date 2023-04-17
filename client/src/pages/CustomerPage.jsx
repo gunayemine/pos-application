@@ -1,7 +1,6 @@
 import { Table } from "antd";
 import { useState } from "react";
 import Header from "../components/header/Header";
-import PrintBill from "../components/bills/PrintBill";
 
 const CustomerPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

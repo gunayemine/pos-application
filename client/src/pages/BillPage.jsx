@@ -1,4 +1,4 @@
-import { Table, Card, Button, Modal } from "antd";
+import { Table, Card, Button } from "antd";
 import { useState } from "react";
 import Header from "../components/header/Header";
 import PrintBill from "../components/bills/PrintBill";
